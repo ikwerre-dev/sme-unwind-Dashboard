@@ -50,7 +50,7 @@ const Countdown = () => {
                         renderOnServer={false}
                         duration={0.7}
                         showLabels={false}
-                        to={targetDate}  // Set the countdown to the target date (30th September)
+                        to={targetDate}  
                     />                </div>
             </div>
             <div className="flex items-center">
