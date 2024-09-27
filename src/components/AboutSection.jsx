@@ -4,9 +4,9 @@ import priceTagImage from '../assets/price-tag.png';
 import starImage from '../assets/star.png';
 import PurplePriceTagImage from '../assets/purple-price-tag.png';
 
-const MainSection = () => {
+const AboutSection = () => {
     return (
-        <div className="bg-black text-white  flex items-center px-4 md:px-10 pt-5 py-[7rem] lg:py-[10rem] lg:pb-[10rem]">
+        <div className="bg-black text-white  flex items-center px-4 pt-5 py-[7rem] lg:py-[12rem]">
             <div className="container mx-auto flex flex-col md:flex-row items-center">
                 <div className="lg:w-1/2 mb-8 lg:mb-0 p-5">
                     <div className="flex items-center text-center">
@@ -48,13 +48,9 @@ const MainSection = () => {
                 </div>
             </div>
 
-            <img
-                src={starImage}
-                alt="Star"
-                className="absolute bottom-25 right-8 w-16 h-16"
-            />
+           
         </div>
     );
 };
 
-export default MainSection;
+export default AboutSection;
