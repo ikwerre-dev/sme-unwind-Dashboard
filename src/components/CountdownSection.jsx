@@ -33,9 +33,9 @@ const Countdown = () => {
     const targetDate = new Date('2024-09-30T00:00:00').getTime();
 
     return (
-        <div className="bg-green-700 p-6 md:px-10 text-white flex justify-around items-center ">
+        <div className="bg-green-700 p-6 md:px-10 text-white flex flex-wrap justify-around  lg:gap-0 items-center ">
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center my-5 md:my-0">
                 <p className="text-lg font-semibold">Early Bird Countdown</p>
                 <div className="flex space-x-3 mt-2">
                     <FlipClockCountdown
@@ -53,20 +53,20 @@ const Countdown = () => {
                         to={targetDate}  
                     />                </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center my-5 md:my-0">
                 <div className="text-center mr-6">
                     <p className="text-l font-semibold">Standard Price</p>
                     <p className="text-3xl font-bold">₦60,000</p>
                 </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center my-5 md:my-0">
                 <div className="text-center mr-6">
                     <p className="text-l font-semibold">Early Bird</p>
                     <p className="text-3xl font-bold">₦50,000</p>
                 </div>
 
             </div>
-            <div className="">
+            <div className="hidden md:flex">
             <ArrowRight  size={40} />
 
             </div>

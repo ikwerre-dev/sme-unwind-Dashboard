@@ -6,7 +6,7 @@ import PurplePriceTagImage from '../assets/purple-price-tag.png';
 
 const MainSection = () => {
     return (
-        <div className="bg-black text-white  flex items-center px-4 md:px-10 pt-5 py-[7rem] lg:py-[10rem] lg:pb-[10rem]">
+        <div className=" text-white  flex items-center px-4 md:px-10 pt-5 py-[7rem] lg:py-[10rem] lg:pb-[10rem]">
             <div className="container mx-auto flex flex-col md:flex-row items-center">
                 <div className="lg:w-1/2 mb-8 lg:mb-0 p-5">
                     <div className="flex items-center text-center">
