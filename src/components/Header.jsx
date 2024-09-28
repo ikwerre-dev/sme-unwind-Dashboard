@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import logo from '../assets/logo.png';
 import { ArrowRightCircle, MenuIcon, X } from 'lucide-react';
 
@@ -10,6 +10,21 @@ function Header() {
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
     };
+
+    useEffect(() => {
+        if (isMenuOpen) {
+            // Disable scroll on the main page
+            document.body.style.overflow = 'hidden';
+        } else {
+            // Enable scroll on the main page
+            document.body.style.overflow = 'auto';
+        }
+
+        // Cleanup the overflow style when component unmounts or menu closes
+        return () => {
+            document.body.style.overflow = 'auto';
+        };
+    }, [isMenuOpen]);
 
     return (
         <>
