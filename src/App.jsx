@@ -7,6 +7,8 @@ import BrandSection from './components/BrandSection'
 import FeatureSection from './components/FeatureSection'
 import EventSchedule from './components/EventSchedule'
 import QASection from './components/QASection'
+import CTASection from './components/CTASection'
+import Footer from './components/FooterSection'
 import './App.css'
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <FeatureSection />
       <EventSchedule />
       <QASection />
+      <CTASection />
+      <Footer />
 
     </>
   )
