@@ -36,15 +36,16 @@ function Header() {
                         </div>
                         <div className="hidden lg:flex space-x-4 text-sm">
                             <a href="#home" className="font-semibold hover:text-orange-500">Home</a>
-                            <a href="#partners" className="font-semibold hover:text-orange-500">Partners & Sponsors</a>
-                            <a href="#vendor" className="font-semibold hover:text-orange-500">Get a vendor stall</a>
                             <a href="#about" className="font-semibold hover:text-orange-500">About Us</a>
+                            <a href="#partners" className="font-semibold hover:text-orange-500">Partners & Sponsors</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb48uKYKLdO9ImUIMylPRDj6PT9hnn7vCXYJrfbaII2bAu5g/viewform" className="font-semibold hover:text-orange-500">Get a vendor stall</a>
                             <a href="#gallery" className="font-semibold hover:text-orange-500">Gallery</a>
+                            <a href='https://wa.me/2349049027698' className="lg:hidden font-semibold hover:text-orange-500">Contact Us</a>
                         </div>
                         <div className="flex items-center justify-center gap-5">
-                            <button className="hidden sm:flex bg-orange-500 text-white px-5 py-3 rounded-full text-sm">
+                            <a className="hidden sm:flex bg-orange-500 text-white px-5 py-3 rounded-full text-sm" href='https://wa.me/2349049027698'>
                                 Contact Us
-                            </button>
+                            </a>
                             {!isMenuOpen && (
 
                                 <MenuIcon

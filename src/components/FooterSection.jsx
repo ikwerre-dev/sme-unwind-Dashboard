@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Mail } from 'lucide-react';
 import logo from '../assets/logo.png'
 
 const Footer = () => {
@@ -8,18 +8,18 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div>
-                        <img src={logo} alt="Sme's Unwind 2024"  className="w-20 mb-4" />
+                        <img src={logo} alt="Sme's Unwind 2024" className="w-20 mb-4" />
                         <p className="text-sm text-gray-600">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda omnis ipsum in aspernatur eos minima illo accusamus aperiam, ab corporis cumque, maxime reprehenderit possimus odio vitae repellat. Beatae, fugiat.
                         </p>
                         <div className="flex space-x-4 mt-4">
-                            <a href="#" className="text-gray-600 hover:text-blue-600">
-                                <Facebook size={24} />
+                            <a href="mailto:sme.unwind@thelyfe.co" className="text-gray-600 hover:text-blue-600">
+                                <Mail size={24} />
                             </a>
-                            <a href="#" className="text-gray-600 hover:text-blue-400">
+                            <a href="https://x.com/smeunwind?s=21" className="text-gray-600 hover:text-blue-400">
                                 <Twitter size={24} />
                             </a>
-                            <a href="#" className="text-gray-600 hover:text-pink-600">
+                            <a href="https://www.instagram.com/smeunwind?igsh=cTA2aG1vcXI4eWhs" className="text-gray-600 hover:text-pink-600">
                                 <Instagram size={24} />
                             </a>
                         </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <h3 className="font-bold text-lg mb-4">Events</h3>
                         <ul className="space-y-2">
                             <li><a href="#" className="text-gray-600 hover:text-gray-900">Partners & Sponsors</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Get a vendor stall</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb48uKYKLdO9ImUIMylPRDj6PT9hnn7vCXYJrfbaII2bAu5g/viewform" className="text-gray-600 hover:text-gray-900">Get a vendor stall</a></li>
                         </ul>
                     </div>
 
@@ -47,8 +47,8 @@ const Footer = () => {
                         <p className="text-gray-600 mb-2">
                             Contact us today to learn more about partnership opportunities.
                         </p>
-                        <p className="text-gray-600">Email: Brands@yellowlyfe.com</p>
-                        <p className="text-gray-600">Contact: 08164630950</p>
+                        <p className="text-gray-600">Email: sme.unwind@thelyfe.co</p>
+                        <a href="https://wa.me/2349049027698" className="text-gray-600">Contact: +2349049027698</a>
                     </div>
                 </div>
 

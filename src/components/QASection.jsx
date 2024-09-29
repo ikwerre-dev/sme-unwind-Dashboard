@@ -4,20 +4,49 @@ import QuoteSign from '../assets/quote-sign.png';
 import Arrows from '../assets/arrows.png';
 const QASection = () => {
   const [openIndex, setOpenIndex] = useState(0);
-
   const faqData = [
     {
-      question: "What is SME Unwind?",
+      question: "What is SMEsUnwind?",
       answer: "SMEsUnwind is a purposefully curated event designed to bring business owners and brands together to sell, connect, network, and have fun."
     },
-    { question: "When and where is the event?", answer: "Details about date and location" },
-    { question: "What does my payment cover?", answer: "Information about what the payment includes" },
-    { question: "What can I expect at the event?", answer: "Description of event activities and experiences" },
-    { question: "Who can attend SMEUnwind", answer: "Eligibility criteria for attendees" },
-    { question: "How can I participate as a vendor", answer: "Steps to participate as a vendor" },
-    { question: "Can I register as a vendor at the venue", answer: "Information about on-site vendor registration" },
-    { question: "How can I register", answer: "Registration process details" },
+    {
+      question: "When and where is the event?",
+      answer: "The event will be held on November 24th at Muri Okunola Park, V.I., Lagos State."
+    },
+    {
+      question: "What does my payment cover?",
+      answer: "Your payment covers participation in the event, networking opportunities, and access to the exclusive after-party for vendors."
+    },
+    {
+      question: "What can I expect at the event?",
+      answer: "Expect a vibrant trade fair tagged 'Black Friday in Real Life' with live shopping, networking opportunities, and an after-party for vendors."
+    },
+    {
+      question: "Who can attend SMEUnwind?",
+      answer: "Anyone interested in business networking, shopping, or learning from other entrepreneurs! Whether you're an aspiring business owner, an established SME, or just looking to shop and support local brands, this event is for you."
+    },
+    {
+      question: "How can I participate as a vendor?",
+      answer: "Simply register through our vendor application form and secure your spot. Spaces are limited, so don't wait too long!"
+    },
+    {
+      question: "Can I register as a vendor at the venue?",
+      answer: "Unfortunately, vendor registration is closed before the event day to ensure exhibitors have ample time for setup and promotion."
+    },
+    {
+      question: "How can I register?",
+      answer: "You can register by clicking the 'Register Now' button above and following the registration process."
+    },
+    {
+      question: "What's the schedule for the day?",
+      answer: "The trade fair runs from 10 AM to 6 PM, followed by an exclusive after-party for vendors from 7 PM onwards."
+    },
+    {
+      question: "What security measures are in place?",
+      answer: "The event will take place in a serene environment with close collaboration with law enforcement to ensure smooth and safe operations."
+    }
   ];
+  
 
   return (
     <div className="bg-black text-white min-h-screen flex flex-wrap p-5 pb-[6rem] md:p-[10rem] relative">
