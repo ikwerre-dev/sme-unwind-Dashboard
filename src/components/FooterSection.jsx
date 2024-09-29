@@ -10,8 +10,7 @@ const Footer = () => {
                     <div>
                         <img src={logo} alt="Sme's Unwind 2024" className="w-20 mb-4" />
                         <p className="text-sm text-gray-600">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda omnis ipsum in aspernatur eos minima illo accusamus aperiam, ab corporis cumque, maxime reprehenderit possimus odio vitae repellat. Beatae, fugiat.
-                        </p>
+                            Our best opportunity to sell, network and unwind</p>
                         <div className="flex space-x-4 mt-4">
                             <a href="mailto:sme.unwind@thelyfe.co" className="text-gray-600 hover:text-blue-600">
                                 <Mail size={24} />
