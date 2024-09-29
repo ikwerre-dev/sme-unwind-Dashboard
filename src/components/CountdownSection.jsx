@@ -30,7 +30,7 @@ const Countdown = () => {
         }, 1000);
         return () => clearTimeout(timer);
     });
-    const targetDate = new Date('2024-09-30T00:00:00').getTime();
+    const targetDate = new Date('2024-11-24T09:00:00').getTime();
 
     return (
         <div className="bg-green-700 p-6 md:px-10 text-white flex flex-wrap justify-around  lg:gap-0 items-center ">
