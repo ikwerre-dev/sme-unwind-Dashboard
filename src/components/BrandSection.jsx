@@ -7,6 +7,11 @@ import starImage from '../assets/star.png';
 import sterlingImage from '../assets/sterling.png';
 import TraceImage from '../assets/trace.png';
 import UberImage from '../assets/uber.png';
+import Brand1Image from '../assets/brand/1.png';
+import Brand2Image from '../assets/brand/2.jpeg';
+import Brand3Image from '../assets/brand/3.jpeg';
+import Brand4Image from '../assets/brand/4.jpeg';
+import Brand5Image from '../assets/brand/5.png';
 
 import PurplePriceTagImage from '../assets/purple-price-tag.png';
 import PurplePriceTagImage2 from '../assets/purple-price-tag-2.png';
@@ -61,12 +66,20 @@ const BrandSection = () => {
                 <h1 className="text-3xl font-bold  mb-4">Previous Sponsors</h1>
                 <div className="bg-white p-6 md:px-10 text-white flex justify-evenly flex-wrap rounded-lg items-center ">
                     <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
-                        <img src={UberImage} className="w-full max-w-lg mx-auto" alt="" />
+                        <img src={Brand1Image} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
-                    <div className="flex h-[7rem] w-[7rem] lg:w-[10rem] grid align-center justify-center  items-center">
-                        <img src={sterlingImage} className="w-full max-w-lg mx-auto" alt="" />
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
+                        <img src={Brand2Image} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
-
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
+                        <img src={Brand3Image} className="w-full max-w-lg mx-auto" alt="" />
+                    </div>
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
+                        <img src={Brand4Image} className="w-full max-w-lg mx-auto" alt="" />
+                    </div>
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
+                        <img src={Brand5Image} className="w-full max-w-lg mx-auto" alt="" />
+                    </div>
 
                 </div>
             </div>
