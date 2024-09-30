@@ -31,8 +31,10 @@ function Header() {
             <div className="py-4 md:px-10 md:py-5 sticky top-[-1rem] z-50">
                 <nav className="bg-white text-black p-5 rounded-3xl mx-4 mt-4  z-50 px-6">
                     <div className="container mx-auto flex justify-between items-center">
-                        <div className="text-orange-500 font-bold text-xl p-2">
-                            <img src={logo} alt="Logo" className="w-[4rem]" />
+                        <div className="text-orange-500 font-bold text-xl p-0 px-2">
+                            <a href="#home">
+                                <img src={logo} alt="Logo" className="w-[6rem]" />
+                            </a>
                         </div>
                         <div className="hidden lg:flex space-x-4 text-sm">
                             <a href="#home" className="font-semibold hover:text-orange-500">Home</a>

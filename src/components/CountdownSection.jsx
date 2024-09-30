@@ -72,9 +72,9 @@ const Countdown = () => {
             </div>
             <div className="flex items-center">
 
-                <button className="bg-orange-500 text-white py-2 px-6 rounded-full font-bold hover:bg-orange-600">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb48uKYKLdO9ImUIMylPRDj6PT9hnn7vCXYJrfbaII2bAu5g/viewform" className="bg-orange-500 text-white py-2 px-6 rounded-full font-bold hover:bg-orange-600">
                     I want a stall
-                </button>
+                </a>
             </div>
         </div>
     );

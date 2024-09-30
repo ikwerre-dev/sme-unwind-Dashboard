@@ -10,9 +10,9 @@ const CTASection = () => {
           connect with thousands of business owners, and be part of an unforgettable
           experience.
         </p>
-        <button className="bg-[#F26B3A] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#D85A2A] transition-colors duration-300">
+        <a href='https://wa.me/2349049027698' className="bg-[#F26B3A] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#D85A2A] transition-colors duration-300">
           Contact Us
-        </button>
+        </a>
       </div>
       <div className="absolute right-[-4rem] top-[-2rem] w-1/4 h-[10rem] bg-[#FF4D0080] transform rotate-90 rounded-tr-full"></div>
       <div className="absolute right-0 bottom-0 flex flex-col items-end">

@@ -27,9 +27,9 @@ const EventSchedule = () => {
                         <h1 className="text-5xl pl-[3rem] font-bold wineFont mb-4">Schedule</h1>
                         <p className="mb-6 font-bold my-6">Don't miss out on any activity. Check out the event schedule</p>
 
-                        <button className="bg-orange-600 text-white px-4 py-2 rounded-full mb-8">
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSeb48uKYKLdO9ImUIMylPRDj6PT9hnn7vCXYJrfbaII2bAu5g/viewform' className="bg-orange-600 text-white px-4 py-2 rounded-full mb-8">
                             I want a stall
-                        </button>
+                        </a>
                     </div>
                     <div className="lg:w-1/2 px-4 lg:px-5 ">
                         <div className="space-y-4 flex flex-col items-center">
