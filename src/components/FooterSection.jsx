@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-12 pt-8 border-t border-gray-300 text-center text-gray-600">
-                    © 2023 smeunwind. All rights reserved.
+                    © 2024 smeunwind. All rights reserved.
                 </div>
             </div>
         </footer>
