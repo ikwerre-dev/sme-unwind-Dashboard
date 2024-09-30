@@ -23,7 +23,7 @@ const BrandSection = () => {
 
                 <h1 className="text-3xl font-bold  mb-4">Headline</h1>
                 <div className="bg-white p-6 md:px-10 text-white flex justify-around flex-wrap rounded-lg items-center ">
-                    <div className="flex h-[7rem] align-center items-center w-[7rem]">
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
                         <img src={yellowlyfeImage} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
 
@@ -34,7 +34,7 @@ const BrandSection = () => {
 
                 <h1 className="text-3xl font-bold  mb-4">Plantinum</h1>
                 <div className="bg-white p-6 md:px-10 text-white flex justify-around flex-wrap rounded-lg items-center ">
-                    <div className="flex h-[7rem] align-center items-center w-[7rem]">
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
                         <img src={BrandImage2} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
 
@@ -45,10 +45,10 @@ const BrandSection = () => {
 
                 <h1 className="text-3xl font-bold  mb-4">Bronze</h1>
                 <div className="bg-white p-6 md:px-10 text-white flex justify-evenly flex-wrap rounded-lg items-center ">
-                    <div className="flex h-[7rem] align-center items-center w-[7rem]">
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
                         <img src={BrandImage} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
-                    <div className="flex h-[7rem] w-[7rem] grid align-center justify-center  items-center">
+                    <div className="flex h-[7rem] w-[7rem] lg:w-[10rem] grid align-center justify-center  items-center">
                         <img src={TraceImage} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
 
@@ -60,10 +60,10 @@ const BrandSection = () => {
 
                 <h1 className="text-3xl font-bold  mb-4">Previous Sponsors</h1>
                 <div className="bg-white p-6 md:px-10 text-white flex justify-evenly flex-wrap rounded-lg items-center ">
-                    <div className="flex h-[7rem] align-center items-center w-[7rem]">
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
                         <img src={UberImage} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
-                    <div className="flex h-[7rem] w-[7rem] grid align-center justify-center  items-center">
+                    <div className="flex h-[7rem] w-[7rem] lg:w-[10rem] grid align-center justify-center  items-center">
                         <img src={sterlingImage} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
 

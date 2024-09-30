@@ -35,9 +35,9 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-lg mb-4">Company</h3>
                         <ul className="space-y-2">
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">About Us</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Contact Us</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Help Center</a></li>
+                            <li><a href="https://YellowLyfe.com" className="text-gray-600 hover:text-gray-900">About Us</a></li>
+                            <li><a href="mailto:brands@yellowlyfe.com" className="text-gray-600 hover:text-gray-900">Contact Us</a></li>
+                            <li><a href="mailto:brands@yellowlyfe.com" className="text-gray-600 hover:text-gray-900">Help Center</a></li>
                         </ul>
                     </div>
 

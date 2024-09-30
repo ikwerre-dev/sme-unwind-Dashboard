@@ -25,7 +25,7 @@ const FeatureSection = () => {
                     <div className="bg-[#FFF3E5] w-9 h-9 flex items-center justify-center p-2 rounded rounded-[50%]">
                         <Users color="#FF8700" />
                     </div>
-                    <h3 className="text-black font-bold text-sm">Access to 5000+ potential customer</h3>
+                    <h3 className="text-black font-bold text-sm">Connect with 500+ Brands and SME's</h3>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@ const FeatureSection = () => {
                     <div className="bg-[#FFF3E5] w-9 h-9 flex items-center justify-center p-2 rounded rounded-[50%]">
                         <Users color="#FF8700" />
                     </div>
-                    <h3 className="text-black font-bold text-sm">Access to 5000+ potential customer</h3>
+                    <h3 className="text-black font-bold text-sm">Exclusive after-party to Unwind and have fun</h3>
                 </div>
             </div>
             </div>
