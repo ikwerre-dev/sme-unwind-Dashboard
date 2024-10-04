@@ -20,7 +20,7 @@ const MainSection = () => {
                         />
                     </div>
                     <h1 className="text-4xl lg:text-6xl wineFont font-bold mb-4 mt-4 leading-tight">
-                        Sell to 5,000+ customers at Lagos Mega Black Friday event
+                        Sell to 5,000+ customers at the Lagos Black Friday Trade Fair
                     </h1>
                     <p className="mb-8 text-gray-300 text-bold max-w-md">
                         This is your chance to sell your market right in front of over

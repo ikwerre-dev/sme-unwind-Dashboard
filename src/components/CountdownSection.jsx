@@ -2,7 +2,7 @@ import React, { useState, useEffect, Component } from "react";
 
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 import '@leenguyen/react-flip-clock-countdown/dist/index.css';
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 
 const Countdown = () => {
     const calculateTimeLeft = () => {
@@ -33,8 +33,12 @@ const Countdown = () => {
     const targetDate = new Date('2024-11-01T09:00:00').getTime();
 
     return (
-        <div className="bg-green-700 p-6 md:px-10 text-white flex flex-wrap justify-around  lg:gap-0 items-center ">
+        <div className="bg-green-700 p-6 md:px-10 text-white flex flex-col md:flex-row flex-wrap justify-around  lg:gap-0 items-center ">
 
+            <div className="flex  items-center my-5 md:my-0">
+                <p className="text-lg font-semibold flex gap-1"><MapPin /> Muri Okunola Park, V.I</p>
+
+            </div>
             <div className="flex flex-col items-center my-5 md:my-0">
                 <p className="text-lg font-semibold">Early Bird Countdown</p>
                 <div className="flex space-x-3 mt-2">
@@ -50,7 +54,7 @@ const Countdown = () => {
                         renderOnServer={false}
                         duration={0.7}
                         showLabels={false}
-                        to={targetDate}  
+                        to={targetDate}
                     />                </div>
             </div>
             <div className="flex items-center my-5 md:my-0">
@@ -67,7 +71,7 @@ const Countdown = () => {
 
             </div>
             <div className="hidden md:flex">
-            <ArrowRight  size={40} />
+                <ArrowRight size={40} />
 
             </div>
             <div className="flex items-center">
