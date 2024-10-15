@@ -2,8 +2,8 @@ import React from 'react';
 import redstar from '../assets/redstar.png'
 const PricingPlan = () => {
     return (
-        <div className="bg-[#e8f1f1] p-4 sm:p-[3rem] relative font-sans pb-[5rem]">
-            <h1 className="text-5xl font-bold wineFont  font-bold mb-6 sm:mb-[5rem] text-center">Pricing Plan</h1>
+        <div className="bg-[#e8f1f1] p-[3rem] sm:p-[3rem] relative font-sans pb-[5rem]">
+            <h1 className="text-5xl font-bold wineFont  font-bold mb-[5rem] text-center">Pricing Plan</h1>
 
             <img
                 src={redstar}
