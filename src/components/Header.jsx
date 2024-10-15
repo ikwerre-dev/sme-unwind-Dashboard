@@ -42,6 +42,8 @@ function Header() {
                             <a href="#partners" className="font-semibold hover:text-orange-500">Partners & Sponsors</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb48uKYKLdO9ImUIMylPRDj6PT9hnn7vCXYJrfbaII2bAu5g/viewform" className="font-semibold hover:text-orange-500">Get a vendor stall</a>
                             <a href="#gallery" className="font-semibold hover:text-orange-500">Gallery</a>
+                            <a href="https://unwindfest.com/blog" className="font-semibold hover:text-orange-500">Blog</a>
+
                             <a href='https://wa.me/2349049027698' className="lg:hidden font-semibold hover:text-orange-500">Contact Us</a>
                         </div>
                         <div className="flex items-center justify-center gap-5">

@@ -3,6 +3,7 @@ import shopImage from '../assets/shop-image.png';
 import priceTagImage from '../assets/price-tag.png';
 import starImage from '../assets/star.png';
 import PurplePriceTagImage from '../assets/purple-price-tag.png';
+import { MapPin } from 'lucide-react';
 
 const MainSection = () => {
     return (
@@ -29,11 +30,12 @@ const MainSection = () => {
                     </p>
                 </div>
                 <div className="lg:w-1/2 relative">
-                <div className="realative">
-                    
-                    <img src={shopImage} alt="Shop" className="w-full max-w-lg mx-auto " />
-                    <p className='absolute bottom-3 text-[.7rem] md:text-sm font-bold wineFont left-[33.5%] md:left-[41%]'>24th November 2024</p>
-                </div>
+                    <div className="realative">
+
+                        <img src={shopImage} alt="Shop" className="w-full max-w-lg mx-auto " />
+                        <p className='absolute bottom-6 text-[.7rem] md:text-sm font-bold wineFont left-[33.5%] md:left-[41%]'>24th November 2024</p>
+                        <p className="absolute bottom-1 text-[.7rem] md:text-sm font-bold wineFont left-[33.5%] md:left-[41%] flex ">Muri Okunola Park, V.I</p>
+                    </div>
                     <img
                         src={PurplePriceTagImage}
                         alt="Price Tag"

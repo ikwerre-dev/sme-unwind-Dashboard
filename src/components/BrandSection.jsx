@@ -13,6 +13,7 @@ import Brand3Image from '../assets/brand/3.jpeg';
 import Brand4Image from '../assets/brand/4.jpeg';
 import Brand5Image from '../assets/brand/5.png';
 import Brand6Image from '../assets/brand/6.png';
+import zoho from '../assets/zoho.png';
 
 import PurplePriceTagImage from '../assets/purple-price-tag.png';
 import PurplePriceTagImage2 from '../assets/purple-price-tag-2.png';
@@ -40,6 +41,9 @@ const BrandSection = () => {
                 <div className="bg-white p-6 md:px-10 text-white flex justify-around flex-wrap rounded-lg items-center ">
                     <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
                         <img src={yellowlyfeImage} className="w-full max-w-lg mx-auto" alt="" />
+                    </div>
+                    <div className="flex h-[7rem] align-center items-center w-[7rem] lg:w-[10rem]">
+                        <img src={zoho} className="w-full max-w-lg mx-auto" alt="" />
                     </div>
 
 
@@ -83,12 +87,12 @@ const BrandSection = () => {
                         type: 'bullets',
                         dynamicMainBullets: 1
                     }}
-                    slidesPerView={2}   
-                    spaceBetween={5}   
+                    slidesPerView={2}
+                    spaceBetween={5}
                     modules={[Pagination]}
                     className="mySwiper p-6 md:px-10 text-white bg-white flex w-[100%] gap-4 rounded-lg"
                 >
-                     <SwiperSlide className="flex flex-col justify-center items-center bg-white rounded-lg">
+                    <SwiperSlide className="flex flex-col justify-center items-center bg-white rounded-lg">
                         <div className="flex justify-center items-center  flex-shrink-0 h-[8rem] w-[8rem] ">
                             <img src={Brand1Image} className="w-full max-w-lg mx-auto" alt="Brand 1" />
                         </div>

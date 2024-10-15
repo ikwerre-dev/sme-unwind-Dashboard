@@ -12,6 +12,7 @@ import GallerySection from './components/GallerySection';
 import CTASection from './components/CTASection';
 import Footer from './components/FooterSection';
 import './App.css';
+import PricingPlan from './components/PricingSection';
 
 function App() {
   useEffect(() => {
@@ -43,6 +44,7 @@ function App() {
       <MainSection />
       <CountdownSection />
       <AboutSection />
+      <PricingPlan />
       <BrandSection />
       <FeatureSection />
       <EventSchedule />
