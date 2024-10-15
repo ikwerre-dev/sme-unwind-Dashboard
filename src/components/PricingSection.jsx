@@ -11,7 +11,7 @@ const PricingPlan = () => {
                 className="absolute top-4 right-[30%] w-6 h-6 sm:w-[4rem] sm:h-[4rem]"
             />
 
-            <div className="md:flex md:flex-row  md:justify-center md:items-center md:md:items-stretch md:space-y-6 md:px-[15%] md:space-y-0 md:space-x-6 space-y-8 md:space-y-0 md:space-x-8">
+            <div className="md:flex md:flex-row  md:justify-center md:items-center md:md:items-stretch md:space-y-6 md:px-[15%] md:space-y-0 md:space-x-6 space-y-8 md:space-y-0 md:space-x-8 pb-[3rem]">
                 <PlanCard
                     title="Basic Plan"
                     price="N100,000"
