@@ -20,17 +20,17 @@ const PricingPlan = () => {
                         "One Table",
                         "Two Chairs"
                     ]}
-                    link="https://checkout.korapay.com/pay/premiumbooth"
+                    link="https://checkout.korapay.com/pay/standardprice"
                 />
                 <PlanCard
                     title="Premium Plan"
-                    price="N450,000"
+                    price="N400,000"
                     features={[
                         "Premium Stand (with branded logo)",
                         "One Table",
                         "Two Chairs"
                     ]}
-                    link="https://checkout.korapay.com/pay/premiumboothhttps://checkout.korapay.com/pay/premiumbooth"
+                    link="https://checkout.korapay.com/pay/premiumbooth"
                 />
             </div>
         </div>
