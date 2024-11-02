@@ -27,7 +27,7 @@ const EventSchedule = () => {
                         <h1 className="text-5xl pl-[3rem] font-bold wineFont mb-4">Schedule</h1>
                         <p className="mb-6 font-bold my-6">Don't miss out on any activity. Check out the event schedule</p>
 
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSeb48uKYKLdO9ImUIMylPRDj6PT9hnn7vCXYJrfbaII2bAu5g/viewform' className="bg-orange-600 text-white px-4 py-2 rounded-full mb-8">
+                        <a href='https://checkout.korapay.com/pay/premiumbooth' className="bg-orange-600 text-white px-4 py-2 rounded-full mb-8">
                             I want a stall
                         </a>
                     </div>

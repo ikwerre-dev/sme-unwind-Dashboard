@@ -13,14 +13,14 @@ const PricingPlan = () => {
 
             <div className="flex flex-wrap md:flex-nowrap   md:px-[10rem] space-y-5 md:space-y-0 md:space-x-[5rem] pb-[3rem]">
                 <PlanCard
-                    title="Basic Plan"
+                    title="Standard Plan"
                     price="N100,000"
                     features={[
                         "Canopy Stand (with branded logo)",
                         "One Table",
                         "Two Chairs"
                     ]}
-                    link="https://docs.google.com/forms/d/e/1FAIpQLSeb48uKYKLdO9ImUIMylPRDj6PT9hnn7vCXYJrfbaII2bAu5g/viewform"
+                    link="https://checkout.korapay.com/pay/premiumbooth"
                 />
                 <PlanCard
                     title="Premium Plan"
@@ -30,14 +30,14 @@ const PricingPlan = () => {
                         "One Table",
                         "Two Chairs"
                     ]}
-                    link="https://forms.gle/uTPovbFbBZHh2f4T7"
+                    link="https://checkout.korapay.com/pay/premiumboothhttps://checkout.korapay.com/pay/premiumbooth"
                 />
             </div>
         </div>
     );
 };
 
-const PlanCard = ({ title, price, features,link }) => {
+const PlanCard = ({ title, price, features, link }) => {
     return (
         <div className="bg-white rounded-2xl p-6 w-full w-full flex shadow-lg transition-all justify-between duration-300 hover:shadow-xl">
             <div className="">

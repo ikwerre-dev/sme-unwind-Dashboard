@@ -40,7 +40,7 @@ const Countdown = () => {
 
             </div>
             <div className="flex flex-col items-center my-5 md:my-0">
-                <p className="text-lg font-semibold">Early Bird Countdown</p>
+                <p className="text-lg font-semibold">Media Black Friday Countdown</p>
                 <div className="flex space-x-3 mt-2">
                     <FlipClockCountdown
                         digitBlockStyle={{
@@ -59,14 +59,14 @@ const Countdown = () => {
             </div>
             <div className="flex items-center my-5 md:my-0">
                 <div className="text-center mr-6">
-                    <p className="text-l font-semibold">Early Bird (Basic Plan)</p>
-                    <p className="text-3xl font-bold">₦60,000</p>
+                    <p className="text-l font-semibold">Early Bird (Standard Plan)</p>
+                    <p className="text-3xl font-bold">₦100,000</p>
                 </div>
             </div>
             <div className="flex items-center my-5 md:my-0">
                 <div className="text-center mr-6">
                     <p className="text-l font-semibold">Early Bird (Premium Plan)</p>
-                    <p className="text-3xl font-bold">₦250,000</p>
+                    <p className="text-3xl font-bold">₦400,000</p>
                 </div>
 
             </div>
