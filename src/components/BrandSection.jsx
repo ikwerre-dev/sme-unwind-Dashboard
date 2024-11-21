@@ -204,7 +204,6 @@ const BrandSection = () => {
                 </Swiper>
             </div>
             <hr className="my-10" />
-
             <div className="py-5">
                 <h1 className="text-3xl font-bold mb-4">Previous Sponsors</h1>
                 <Swiper
